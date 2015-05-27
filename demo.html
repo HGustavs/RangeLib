@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="rangeLib.css" />
+
+ 		<script src="rangeLib.js"></script> 
+ 
+		<script>
+			
+			function makeControls()
+			{
+					var sstr="";
+					sstr+=makeControl(0,1,-20,20,0.5,"Hejkon","Boo");
+					sstr+=makeControl(0,4,2,6,1,"Bejkon","Too");
+					sstr+=makeControl(1,4,2,6,1,"Freejkon","Roo");
+
+					sstr+=makeControl(2,1,0,1,0.01,"RRCol","R ");
+					sstr+=makeControl(0,1,0,1,0.01,"GGCol","G");
+					sstr+=makeControl(0,1,0,1,0.01,"BBCol","B");
+					
+					document.getElementById('controltable').innerHTML=sstr;
+			}
+
+		</script>
+
+	</head>
+	
+	<body style="background:#787;" onload="makeControls();">
+		
+		<table id='controltable'>
+	
+		</table>
+
+	</body>
+</html>

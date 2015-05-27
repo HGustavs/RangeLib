@@ -1,0 +1,156 @@
+input.binary::-moz-range-thumb
+{
+		border: 1px solid black;
+		height: 14px;
+		width: 14px;
+		border-radius: 6px;
+		background: #ccc;
+		box-shadow: 4px 0px 4px #444 inset;
+		margin-top:1px;
+} 
+
+input.binary::-webkit-slider-thumb
+{
+		-webkit-appearance: none;
+		border: 1px solid black;
+		height: 14px;
+		width: 14px;
+		border-radius: 6px;
+		background: #ccc;
+		box-shadow: 4px 0px 4px #444 inset;
+		margin-top:1px;
+}
+
+input.binary
+{
+		-webkit-appearance: none;
+		width:32px;
+		height:16px;
+		border-radius:6px;
+		box-shadow: 0px 0px 3px #AAA inset;
+}
+
+input.binary::-moz-range-track
+{
+		height:16px;
+		border-radius:6px;
+		box-shadow: 2px 2px 3px #000 inset , 1px 1px 1px #444;
+		background:#555;
+}	
+
+input.binaryon::-moz-range-track
+{
+		height:16px;
+		border-radius:6px;
+		box-shadow: 2px 2px 3px #000 inset , 1px 1px 1px #444;
+		background:#ccc;
+}	
+
+
+input.binary::-webkit-slider-runnable-track
+{
+		height:16px;
+		border-radius:6px;
+		box-shadow: 2px 2px 3px #000 inset, 1px 1px 1px #444;
+		background:#555;
+		-webkit-appearance: none;
+}	
+
+input.binaryon::-webkit-slider-runnable-track
+{
+		height:16px;
+		border-radius:6px;
+		box-shadow: 2px 2px 3px #000 inset,  1px 1px 1px #444;
+		background:#ccc;
+		-webkit-appearance: none;
+}				
+
+input.binary:focus {
+		outline-width: 0;
+}
+
+input.binaryon:focus {
+		outline-width: 0;
+}
+
+
+input.numb::-moz-range-track{
+		height:3px;
+		border-radius:1px;
+		box-shadow: 0px 0px 2px #000, 1px 1px 1px #000 inset;
+		width:100px;
+		background:#fff;
+}	
+
+input.numb::-webkit-slider-runnable-track{
+		height:3px;
+		border-radius:1px;
+		box-shadow: 0px 0px 2px #000, 1px 1px 1px #000 inset;
+		width:100px;
+		background:#fff;
+}	
+
+input.numb:focus
+{
+		outline-width: 0;
+}
+
+input.numt:focus
+{
+		outline-width: 0;
+}
+
+input.numb
+{
+		-webkit-appearance: none;
+		width:100px;
+		height:16px;
+		background: url("ticksub.png");
+}
+
+input.numb::-webkit-slider-thumb
+{
+		-webkit-appearance: none;
+		border: 1px solid black;
+		height: 16px;
+		width: 6px;
+		border-radius: 4px;
+		background: #fff;
+		margin-top: -6px;
+}
+
+input.numb::-moz-range-thumb
+{
+		-webkit-appearance: none;
+		border: 1px solid black;
+		height: 16px;
+		width: 6px;
+		border-radius: 4px;
+		background: #fff;
+		margin-top: -6px;
+} 
+
+.lab
+{
+		font-family:  Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+		font-size:16px;
+		text-shadow: 1px 1px 1px #000;
+		color:#fff;
+}
+
+.numt
+{
+		width:40px;
+		height:20px;
+		font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+		font-size:14px;	
+}
+
+.RGBBox
+{
+		border:1px outset #84B; 
+		background: #fed;
+		width:32px;
+		height:32px;
+		border-radius:4px;
+}
